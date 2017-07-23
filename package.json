@@ -1,7 +1,7 @@
 {
   "name": "dragging-boxes-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Add, drag, and remove boxes.",
   "main": "./src/index.js",
   "scripts": {
     "dev": "webpack-dev-server",
