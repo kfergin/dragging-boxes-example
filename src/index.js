@@ -16,7 +16,7 @@ class Box extends Component {
 		this.props.handleMouseDown(e, this.props.id);
 	}
 	handleTouchStart(e) {
-		e.stopPropagation();
+		e.preventDefault();
 		this.props.handleTouchStart(e, this.props.id);
 	}
 	render() {
@@ -164,7 +164,7 @@ class Container extends Component {
 		if (!this.state.selectedBox) return;
 		let {clientX, clientY} = e;
 		if (e.type === 'touchmove') {
-			e.stopPropagation();
+			e.preventDefault();
 			({clientX, clientY} = e.changedTouches[0]);
 		}
 		this.setState(prevState => {
