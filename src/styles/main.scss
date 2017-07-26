@@ -1,6 +1,6 @@
-@import 'styles/normalize';
-@import 'styles/bourbon/bourbon';
-@import 'styles/base/base';
+@import 'normalize';
+@import '../../node_modules/bourbon/app/assets/stylesheets/_bourbon.scss';
+@import 'base/base';
 
 html, body {
 	position: relative;
@@ -65,7 +65,7 @@ html, body {
 		}
 		@media only screen and (min-width: 400px) {
 			li {
-				margin: 0 8px 4px 0;
+				margin: 0 8px 0 0;
 			}
 		}
 	}
@@ -86,7 +86,7 @@ html, body {
 		}
 	.box {
 		background-color: transparentize($blue, 0.6);
-		cursor: -webkit-grab; // default
+		cursor: -webkit-grab;
 		transition: background-color 350ms ease;
 	}
 	.new-box-area {

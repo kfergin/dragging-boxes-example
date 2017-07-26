@@ -4,7 +4,7 @@ import { TransitionMotion, spring } from 'react-motion';
 import uuid from 'uuid';
 import classNames from 'classnames';
 
-import './index.scss';
+import './styles/main.scss';
 
 class Box extends Component {
 	constructor(props) {
