@@ -1,0 +1,4 @@
+src/styles/base/* linguist-vendored
+src/styles/_normalize.scss linguist-vendored
+
+live/* linguist-generated=true
