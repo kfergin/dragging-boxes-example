@@ -1,0 +1,9 @@
+@import 'normalize';
+@import '../../node_modules/bourbon/app/assets/stylesheets/_bourbon.scss';
+@import 'base/base';
+
+html, body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}

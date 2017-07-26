@@ -35,6 +35,7 @@
     "webpack-dev-server": "^2.6.0"
   },
   "dependencies": {
+    "bourbon": "^4.3.4",
     "classnames": "^2.2.5",
     "loglevel": "^1.4.1",
     "polished": "^1.3.0",

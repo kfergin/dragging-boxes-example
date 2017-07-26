@@ -35,10 +35,10 @@ export default styled.div`
 			left: 4px;
 			top: 0;
 		}
-	}
-	@media only screen and (min-width: 400px) {
-		li {
-			margin: 0 8px 4px 0;
+		@media only screen and (min-width: 400px) {
+			& {
+				margin: 0 8px 0 0;
+			}
 		}
 	}
 `;
