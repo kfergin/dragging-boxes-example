@@ -4,10 +4,10 @@ const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');;
 
 const isProd = process.env.NODE_ENV === 'production';
-const cssDev = ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'];
+const cssDev = ['style-loader', 'css-loader', 'sass-loader'];
 const cssProd = ExtractTextPlugin.extract({
 	fallback: 'style-loader',
-	use: ['css-loader', 'postcss-loader', 'sass-loader']
+	use: ['css-loader', 'sass-loader']
 });
 
 module.exports = {
